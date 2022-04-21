@@ -8,18 +8,18 @@
 <body>
 
     <script>
-        var num_1 = 10;
-         var num_2 = 20.532;
+        var str1 = "Apple";
+        var str2 = "Banana";
  
-         console.log(num_1 + num_2);
-         console.log(num_1 - num_2);
-         console.log(num_1 * num_2);
-         console.log(num_1 / num_2);
-         console.log(num_1 % 2.7);
+        console.log(str1.length);
+        console.log(str1[0]);
+        console.log(str1[1]);
+        console.log(str1 + ' '+ str2);
+        console.log(`I love ${str1} and ${str2}.`);
  
        </script>
- 
- </body>
+    
+</body>
 
 
 </html>
